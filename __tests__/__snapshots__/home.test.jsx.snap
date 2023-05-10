@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="flex min-h-screen flex-col items-center justify-between p-24 className"
+  >
+    <div>
+      Hello World!
+    </div>
+  </main>
+</div>
+`;
