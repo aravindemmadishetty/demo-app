@@ -28,7 +28,7 @@ export default function ProductPage({ name, data }) {
 }
 
 export async function getStaticProps({ params }) {
-  const data = await fetch("http:localhost:3000/api/products").then((res) =>
+  const data = await fetch("https://fakestoreapi.com/products").then((res) =>
     res.json()
   );
   return {
